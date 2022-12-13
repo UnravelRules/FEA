@@ -1,0 +1,75 @@
+body{
+    background-color: #181818;
+    row-gap: 100px;
+}
+
+.container{
+    display: grid;
+}
+.project-name{
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    color: #FFFFFF;
+}
+
+.search-bar{
+    position: relative;
+    display: inline-block;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    border-radius: 25px;
+    background-color: #1C1D1F;
+    padding: 5px;
+}
+
+#magnifier{
+    background: url(/static/assets/magnifier.svg);
+    border: 0;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+}
+
+#search{
+    background-color: transparent;
+    border: 0;
+    color: white;
+    font-size: large;
+    font-family: 'Righteous';
+}
+#search:active{
+    border-color: #1C1D1F;
+}
+
+.suprise{
+    border-radius: 25px;
+    padding: 12px;
+    display: inline-block;
+    justify-content: left;
+    background-color: #1C1D1F;
+}
+
+#suprise{
+    background-color: transparent;
+    border: 0;
+    color: #727272;
+    font-family: 'Righteous';
+
+}
+
+#home{
+    background-color: transparent;
+    border: 0;
+}
+
+#list{
+    background-color: transparent;
+    border: 0;
+}
+
+#like{
+    background-color: transparent;
+    border: 0;
+}
